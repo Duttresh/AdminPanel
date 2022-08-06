@@ -1,0 +1,15 @@
+import React from 'react'
+import Cards from '../Cards/Cards'
+import Table from '../Table/Table'
+import '../MainDash/mainDash.css'
+const MainDash = () => {
+  return (
+    <div className='mainDash'>
+         <h1>DashBoard</h1>
+         <Cards/>
+         <Table/>
+    </div>
+  )
+}
+
+export default MainDash
